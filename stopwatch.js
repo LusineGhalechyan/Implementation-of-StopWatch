@@ -4,7 +4,7 @@ function Stopwatch() {
 
   this.start = function() {
     if (running) 
-      return 'Stopwatch has already started.'
+      return 'Stopwatch has already started!';
     
     running = true; 
 
@@ -13,7 +13,7 @@ function Stopwatch() {
 
   this.stop = function() {
     if (!running) 
-      return 'Stopwatch is not started.'
+      return 'Stopwatch is not started';
 
     running = false; 
       
@@ -34,3 +34,9 @@ function Stopwatch() {
     get: function() { return duration; }
   });
 }
+
+sw.start();
+sw.start();
+sw.stop();
+sw.duration;
+sw.reset()
