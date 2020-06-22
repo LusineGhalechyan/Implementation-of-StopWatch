@@ -35,7 +35,7 @@ function Stopwatch() {
   });
 }
 
-const sw = new Stopwatch()
+const sw = new Stopwatch();
 sw.start();
 sw.start();
 sw.stop();
